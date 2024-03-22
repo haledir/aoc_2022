@@ -1,7 +1,8 @@
 use std::{ops::Index, collections::HashMap};
 
 fn main(){
-    theo();
+    part1();
+    part2();
 }
 
 fn part2() {
@@ -82,11 +83,7 @@ fn part1() {
     println!("result: {:?}",result);
 }
 
-fn prime(){
-
-}
-
-fn theo(){
+fn otherSolution(){
 
     let input = include_str!("../../../inputs/day2.input");
     let lines: Vec<&str> = input.split("\n").collect();
